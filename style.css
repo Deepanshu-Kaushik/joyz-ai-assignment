@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(135deg, rgb(0, 0, 117), rgb(61, 7, 70) 80%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+  min-height: 350px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.heading h1 {
+  color: darkblue;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.icon {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.inputs {
+  background-color: rgb(227, 227, 227);
+  border-radius: 30px;
+  display: flex;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 80%;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0 30px;
+}
+
+.addButton {
+  outline: none;
+  width: 20%;
+  border: none;
+  background: rgb(248, 104, 52);
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.taskList {
+  margin-bottom: 10px;
+}
+
+.taskBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  margin: 20px 0;
+}
+
+.tickBox {
+  width: 5%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.task {
+  cursor: pointer;
+  width: 90%;
+  text-wrap: wrap;
+  margin-right: 10px;
+}
+
+.cross {
+  margin-left: auto;
+  cursor: pointer;
+  height: auto;
+  border-radius: 50%;
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.cross:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+.checked {
+  text-decoration: line-through;
+}
